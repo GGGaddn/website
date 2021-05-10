@@ -1,0 +1,300 @@
+body {
+	background: #efefef;
+	background-image: url(images/bgmain1.png);
+	margin: 0;
+	padding: 0;
+	font: 16px/24px Arial, Tahoma, sans-serif;
+	color: #FFFFFF;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover{transition: all 0.5s;}
+
+
+/* Структура сайта  РАЗМЕР САЙТА КАКОЙ ВАМ НАДО МОЖНО МЕНЯТЬ ФОН ФОНОВЫЙ ЦВЕТ */
+
+.mid {
+	width: 1920px;
+	width: 1080px;
+	margin: 0 auto;
+
+}
+
+.header {
+	padding-top: 20px;
+	background:
+	radial-gradient;
+	background-color; 
+}
+
+.footer {
+	margin: 20px 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/* Шапка сайта ГЛАВНОЕ ФОРУМ ТОП ИГРОКИ СКАЧАТЬ КЛИЕНТ */
+
+.topmenu {
+	float: right;
+	height: 70px;
+	line-height: 70px;
+}
+
+.topmenu a {
+	margin: 0 0 0 50px;
+	color: #1683a3;
+}
+
+.topmenu a:hover {
+    color: #fff;
+}
+
+.afisha {
+	padding: 0px 0px 1px 0px;
+	text-align: center;
+}
+
+.afisha img {
+	float: left;
+	
+}
+
+.afisha h3 {
+	font-size:28px ;
+	font-weight: normal;
+	text-align: center;
+	
+	color: #000000;
+}
+
+.afisha p {
+	display: inline-block;
+	text-align: center;
+}
+
+.afisha a {
+	font-size: 30px;
+	color: #fff;
+	font-weight: bold;
+	background:#FF0040;
+	border: 1px solid #862900;
+	padding: 10px 15px;
+	border-radius: 3px;
+	text-shadow: 0px 0px 1px #752300;
+	margin: 5px 30px;
+}
+
+.afisha a:hover {
+    background: #068bac;
+	border: 1px solid #046d88;
+	text-shadow: 0px 0px 0px #034E61;
+}
+
+
+/* Главное меню */
+
+.menu {
+	border-left: none;
+	border-right: none;
+
+}
+
+.menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+.menu ul li{
+	display: inline-block;
+	margin: 5px 30px;
+}
+
+.menu ul li a{
+	color: #fff;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 3px #0b4455;
+}
+
+.menu ul li a:hover{
+	color: #a3e1f3;
+}
+
+/* Контент сайта */
+
+.fon {
+	border-top: none;
+	padding: 40px;
+}
+
+.fon hr.line {
+	height: 0;
+	margin: 40px 0;
+}
+
+.block {
+	width: 350px;
+	float: left;
+	
+}
+
+.block:nth-of-type(even){
+	float: right;
+}
+
+.block a p {
+	color: #FFFFFF ;
+}
+
+.anons {
+	background: #000000;
+	border: 0px solid #ccc;
+	border-radius: 1px;
+	padding: 20px;
+}
+
+.anons:hover {
+	background: #e0eff4;
+	border: 1px solid #bfd5dd;
+	transition: all 1s;
+}
+
+ /* АНИАЦИЯ ФОТО*/
+
+.anons img {
+	box-shadow: 0px 0px 0px #777; transition: transform 0.5s;}
+	.anons:hover img {
+	transform: scale(1.15)
+	rotate(1deg);transition: transform 5s;
+	
+}
+
+.block:nth-of-type(even).anons:hover img {transform: scale(1.15)
+	rotate(-1deg);
+	}
+
+ /* ЗАКОНЧИЛАСЬ АНИАЦИЯ ФОТО*/
+
+
+
+.anons h3 {
+	font-size: 20px;
+	margin: 20px 0 10px;
+	outline: 1px solid:#FFFFFF;
+	color:#FFFFFF;
+	padding: 0;
+	font-weight: normal;
+	line-height: 20px;
+}
+
+.anons p {
+	text-shadow: 0px 0px 0 #fff;
+}
+
+.rek {
+	margin: 10px 0;
+}
+
+/* АНИАЦИЯ РЕКЛАМЫ ВЫДВИГАЕТСЯ БОЛЬШАЯ ФОТКА */
+
+.rek img {
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	 position: relative;}
+@-webkit-keyframes prigskok {
+	0%{top: 0;}
+	10%{top: 40px;}
+	10%{top: -30px;}
+	20%{top: 40;}
+	30%{top: -40px;}
+	40%{top: 40px;}
+	50%{top: -30;}
+	60%{top: 40px;}
+	70%{top: 0px;}
+	90%{top: 40px;}
+	95%{top: 20px;}
+	100%{top: 0px;}
+}
+
+@-moz-keyframes prigskok {
+	0%{top: 0;}
+	10%{top: 40px;}
+	10%{top: -30px;}
+	20%{top: 40;}
+	30%{top: -40px;}
+	40%{top: 40px;}
+	50%{top: -30;}
+	60%{top: 40px;}
+	70%{top: 0px;}
+	90%{top: 40px;}
+	95%{top: 20px;}
+	100%{top: 0px;}
+}
+
+@keyframes prigskok {
+	0%{top: 0;}
+	10%{top: 40px;}
+	10%{top: -30px;}
+	20%{top: 40;}
+	30%{top: -40px;}
+	40%{top: 40px;}
+	50%{top: -30;}
+	60%{top: 40px;}
+	70%{top: 0px;}
+	90%{top: 40px;}
+	95%{top: 20px;}
+	100%{top: 0px;}
+}
+
+	.rek img:hover{-webkit-animation:prigskok 2s; 
+		-moz-animation:prigskok 2s;
+		forwards;
+		animation:prigskok 2s;}
+
+/* АНИАЦИЯ РЕКЛАМЫ ВЫДВИГАЕТСЯ БОЛЬШАЯ ФОТКА ЗАКОНЧИЛАСЬ*/
+
+
+/* Подвал */
+
+.footer span{
+	margin: 0 20px;
+}
+
+
+.clear {
+	clear: both;
+}
+
+
+/*Адаптивный дзайн уменьшаем изображения фото дисплей*/
+
+@media screen and (max-width: 999px){
+	.mid {width: 95%;
+	}
+		.block {width: 45%;
+		}
+	.anons img {width: 100%;
+	}
+	.afisha img {width: 100%;
+	}
+	.rek img {width: 100%;
+	}
+
+
+@media screen and (max-width: 600px){
+	.header{text-align: center; background-position: center -150px;}
+	.topmenu ,
+	.afisha img,
+	.block,
+	.block:nth-of-type(even) 
+	{float: none;
+	}
+	
+	.block{width: auto; margin-bottom: 50px;}
+	.block:nth-last-of-type(2){margin-bottom: 0;}
+
